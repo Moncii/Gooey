@@ -44,7 +44,7 @@ checkbox = {
          self.y = self.parent.y + self.spacing + offsetY
 
          local height = self.size
-         if(ui.mouseInPoint(self.x, self.y, self.width, height)) then
+         if(self.y < self.parent.y+self.parent.height) and (ui.mouseInPoint(self.x, self.y, self.width, height)) then
             self.hover = true
          else
             self.hover = false

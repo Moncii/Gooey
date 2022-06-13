@@ -1,9 +1,9 @@
 
 theme = {
 
-   font = love.graphics.newFont('UI/Fonts/Roboto-Regular.ttf', 16),
+   font = love.graphics.newFont('Gooey/Fonts/Roboto-Regular.ttf', 16),
 
-   iconSource = love.graphics.newImage('Assets/icons.png'),
+   iconSource = love.graphics.newImage('Gooey/Assets/icons.png'),
    icons = {},
 
    bgColor = {0.2,0.2,0.2},
